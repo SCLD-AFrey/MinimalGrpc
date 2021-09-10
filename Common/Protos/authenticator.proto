@@ -1,0 +1,21 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "AuthenticationServiceProto";
+
+package test;
+
+service AuthenticatorServiceRpc {
+  rpc ReturnToken(AuthRequest) returns (AuthReply) {}
+}
+
+message AuthRequest {
+  string username = 1;
+}
+
+message AuthReply {
+  string token = 1;
+  repeated AuthRole roles = 2;
+}
+message AuthRole {
+  string Name = 1;
+}

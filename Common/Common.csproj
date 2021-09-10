@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Protos\orchestrator.proto">
+      <Access>Public</Access>
+      <GrpcServices>None</GrpcServices>
+      <ProtoCompile>True</ProtoCompile>
+      <OutputDir>obj\Debug\net5.0\</OutputDir>
+      <CompileOutputs>True</CompileOutputs>
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Protos\service.proto">
+      <Access>Public</Access>
+      <GrpcServices>None</GrpcServices>
+      <ProtoCompile>True</ProtoCompile>
+      <OutputDir>obj\Debug\net5.0\</OutputDir>
+      <CompileOutputs>True</CompileOutputs>
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>

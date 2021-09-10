@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "CCB9dShq1v32wz93Mn8dYsYnRb+zQfzxbIm9wi9HMlTn6sQaHqj0cCM5h3WpHNJ8/d09m5htOPUSt0cSdF+W9A==",
+  "success": true,
+  "projectFilePath": "D:\\Development\\SCLD-AFrey\\MinimalGrpc\\RequestHandler\\RequestHandler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\afrey.STEELCLOUD\\.nuget\\packages\\google.protobuf\\3.15.7\\google.protobuf.3.15.7.nupkg.sha512",
+    "C:\\Users\\afrey.STEELCLOUD\\.nuget\\packages\\grpc.core\\2.36.4\\grpc.core.2.36.4.nupkg.sha512",
+    "C:\\Users\\afrey.STEELCLOUD\\.nuget\\packages\\grpc.core.api\\2.36.4\\grpc.core.api.2.36.4.nupkg.sha512",
+    "C:\\Users\\afrey.STEELCLOUD\\.nuget\\packages\\grpc.tools\\2.36.4\\grpc.tools.2.36.4.nupkg.sha512",
+    "C:\\Users\\afrey.STEELCLOUD\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\afrey.STEELCLOUD\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}
